@@ -1,0 +1,82 @@
+h1  
+       {
+ 	       text-align: center;
+ 	       font-family: courier;
+ 	       color: slateblue;
+ 	       background-color: powderblue;
+ 	       font-size: 80px;
+       }
+     
+h2, h3, h4, h5, h6, h7, hbruh, h9
+       {
+ 	       text-align: center;
+ 	       font-family: courier;
+ 	       color: slateblue;
+ 	       background-color: powderblue;
+ 	       font-size: 58px;              
+       }
+       
+h1a, h1b, h1c, hboi, hboiv2, hboiv3
+       {
+              text-align: center;
+ 	       font-family: courier;
+ 	       color: slateblue;
+ 	       background-color: powderblue;
+ 	       font-size: 58px;
+       }
+p1, p2, p3, p4, p5, p6, p7, p8, pbook 
+       {
+              text-align: center;
+              font-family: courier;
+              color: slateblue;
+              font-size: 33px;
+       }
+      
+p1a, p1b, p1c, p2a, p2b, p2c, pboi, pboiv2, pboiv3
+       {
+              text-align: left;
+              font-family: courier;
+              color: slateblue;
+              font-size: 25px;
+       }
+       
+.tab   {
+              overflow: hidden;
+              border: 3px solid slateblue;
+              background-color: slateblue;
+       }
+
+.tab button 
+       {
+              background-color: inherit;
+              float: inherit;
+              border: none;
+              outline: none;
+              color: powderblue;
+              cursor: pointer;
+              padding: 30px 50px;
+              transition: 0.3s;
+              font-family: courier;
+              font-size: 16px
+       }
+
+/* Change background color of buttons on hover */
+.tab button:hover 
+       {
+              background-color: #ddd;
+       }
+
+/* Create an active/current "tab button" class */
+.tab .active 
+       {
+              background-color: #ccc;
+       }
+
+/* Style the tab content */
+.tabcontent 
+       {
+              display: none;
+              padding: 6px 12px;
+              border: 1px solid #ccc;
+              border-top: none;
+       }
